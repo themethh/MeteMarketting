@@ -1,0 +1,82 @@
+﻿@using System.Threading.Tasks
+@model MeteMarketting.MVCWebPageArayuz.Models.KayitolViewModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/_AdminLayout.cshtml";
+}
+<html>
+<head>
+    
+</head>
+
+
+<!------ Include the above in your HEAD tag ---------->
+<body>
+    <div class="simple-login-container">
+        <h2>KAYIT OL</h2>
+        
+        <form asp-controller="Uye" asp-action="Kayitol" method="post" role="form">
+            <div class="row">
+                <div class="col-md-12 form-group">
+                    <input asp-for="KullaniciAdi" class="form-control" placeholder="Username" >
+                    <span asp-validation-for="KullaniciAdi"></span>
+                </div>
+            </div>
+            
+            
+            <div class="row">
+
+                <div class="col-md-12 form-group">
+                    <input asp-for="Parola" class="form-control" placeholder="Enter your Password">
+                    <span asp-validation-for="Parola"></span>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col-md-12 form-group">
+                        <input asp-for="Email" class="form-control" placeholder="Enter your E-mail">
+                        <span asp-validation-for="Email"></span>
+                    </div>
+                </div>
+            
+        <div class="row">
+            <div class="col-md-12 form-group">
+                <input type="submit" class="btn btn-block btn-login" value="Kayıt Ol" name="Kayitol" >
+
+            </div>
+        </div>
+        </form>
+    </div>
+<style>
+    body {
+        background-color: #5286F3;
+        font-size: 14px;
+        color: #fff;
+    }
+
+    .simple-login-container {
+        width: 300px;
+        max-width: 100%;
+        margin: 50px auto;
+    }
+
+    .simple-login-container h2 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .simple-login-container .btn-login {
+        background-color: #FF5964;
+        color: #fff;
+    }
+
+    a {
+        color: #fff;
+    }
+</style>
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>
+

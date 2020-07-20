@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MeteMarketting.Data\MeteMarketting.Data.csproj" />
+    <ProjectReference Include="..\MeteMarketting.Entity\MeteMarketting.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

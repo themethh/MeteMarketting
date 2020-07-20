@@ -1,0 +1,12 @@
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Core\bin\Debug\netcoreapp2.1\MeteMarketting.Core.deps.json
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Core\bin\Debug\netcoreapp2.1\MeteMarketting.Core.dll
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Core\bin\Debug\netcoreapp2.1\MeteMarketting.Core.pdb
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Core\obj\Debug\netcoreapp2.1\MeteMarketting.Core.csprojAssemblyReference.cache
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Core\obj\Debug\netcoreapp2.1\MeteMarketting.Core.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Core\obj\Debug\netcoreapp2.1\MeteMarketting.Core.AssemblyInfoInputs.cache
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Core\obj\Debug\netcoreapp2.1\MeteMarketting.Core.AssemblyInfo.cs
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Core\obj\Debug\netcoreapp2.1\MeteMarketting.Core.dll
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Core\obj\Debug\netcoreapp2.1\MeteMarketting.Core.pdb
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Core\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Core\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.xml
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Core\obj\Debug\netcoreapp2.1\MeteMarketting.Core.csproj.CopyComplete

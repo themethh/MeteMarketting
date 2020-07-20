@@ -1,0 +1,59 @@
+﻿
+@model MeteMarketting.MVCWebPageArayuz.Models.SepetOzetiViewModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/_Layout.cshtml"; ;
+}
+
+<h2>Hesap Özeti</h2>
+<table class="table table-dark">
+    <tr>
+        <td>Urun Ad</td>
+        <td>Birim Fiyat</td>
+        <td>Stok Adedi</td>
+        <td>Adet</td>
+        <td></td>
+    </tr>
+    @foreach (var sepetElemanlari in Model.Sepet.SepetElemanlaris)
+    {
+        <tr>
+            <td>@sepetElemanlari.urun.UrunAd</td>
+            <td>@sepetElemanlari.BirimFiyat</td>
+            <td>@sepetElemanlari.StokBirimi</td>
+            <td>@sepetElemanlari.Adet</td>
+            <td class="text-right"><a class="btn btn-xs btn-danger" asp-controller="Sepet" asp-action="Remove" asp-route-productId="@sepetElemanlari.urun.UrunId"><span class="glyphicon glyphicon-remove"></span>Sepetten Sil</a></td>
+        </tr>
+
+    }
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>
+            <h3>Toplam</h3>
+        </td>
+        <td class="text-right">
+            <h3>
+                <strong>@Model.Sepet.Toplam</strong>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>
+            <a asp-controller="Urun" asp-action="Index" class="btn btn-xs btn-light">
+                <span class="glyphicon glyphicon-shopping-cart"></span>Devam
+            </a>
+        </td>
+        <td class="text-right">
+            <a asp-controller="Sepet" asp-action="Finish" class="btn btn-xs btn-success">
+                <span class="glyphicon glyphicon-shopping-play"></span>Bitir
+            </a>
+        </td>
+    </tr>
+</table>
+

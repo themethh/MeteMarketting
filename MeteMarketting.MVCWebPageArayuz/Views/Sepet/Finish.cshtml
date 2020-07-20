@@ -1,0 +1,50 @@
+﻿@using MeteMarketting.Entity.SomutNesnelerim
+@model MeteMarketting.MVCWebPageArayuz.Models.AlisverisDetaylariViewModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/_Layout.cshtml"; ;
+}
+
+<h2>Alisveris Detaylari</h2>
+<form asp-controller="Sepet" asp-action="Finish" method="post">
+    <div class="form-group">
+        <label asp-for="AlisverisDetaylari.İsim"></label>
+        <input asp-for="AlisverisDetaylari.İsim" class="form-control" />
+        <span asp-validation-for="AlisverisDetaylari.İsim"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="AlisverisDetaylari.Soyisim"></label>
+        <input asp-for="AlisverisDetaylari.Soyisim" class="form-control" />
+        <span asp-validation-for="AlisverisDetaylari.Soyisim"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="AlisverisDetaylari.Cinsiyet"></label>
+        <input asp-for="AlisverisDetaylari.Cinsiyet" class="form-control" />
+        <span asp-validation-for="AlisverisDetaylari.Cinsiyet"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="AlisverisDetaylari.Yas"></label>
+        <input asp-for="AlisverisDetaylari.Yas" class="form-control" />
+        <span asp-validation-for="AlisverisDetaylari.Yas"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="AlisverisDetaylari.Email"></label>
+        <input asp-for="AlisverisDetaylari.Email" class="form-control" />
+        <span asp-validation-for="AlisverisDetaylari.Email"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="AlisverisDetaylari.Adres"></label>
+        <input asp-for="AlisverisDetaylari.Adres" class="form-control" />
+        <span asp-validation-for="AlisverisDetaylari.Adres"></span>
+    </div>
+
+    <input type="submit" value="Finish" class="btn btn-xs btn-success"/>
+
+
+
+
+
+
+
+</form>

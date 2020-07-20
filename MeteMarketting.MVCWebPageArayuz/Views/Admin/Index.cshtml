@@ -1,0 +1,30 @@
+﻿@model MeteMarketting.MVCWebPageArayuz.Models.ProductListViewModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/_AdminLayout.cshtml";
+}
+
+<h2>Urun Listesi</h2>
+<div>
+    <td><a class="btn btn-xs btn-primary" asp-controller="Admin" asp-action="Add" >Urun Ekle</a></td>
+    <table class="table table-dark">
+        <tr>
+            <td>Urun Ad</td>
+            <td>Birim Fiyat</td>
+            <td>Stok Adedi</td>
+            <td></td>
+        </tr>
+        @foreach (var product in Model.Products)
+        {
+            <tr>
+                <td>@product.UrunAd</td>
+                <td>@product.BirimFiyat</td>
+                <td>@product.StokBirimi</td>
+                <td><a class="btn btn-xs btn-info" asp-controller="Admin" asp-action="Update" asp-route-productId="@product.UrunId">Guncelle</a></td>
+                <td><a class="btn btn-xs btn-danger" asp-controller="Admin" asp-action="Delete" asp-route-productId="@product.UrunId">Sil</a></td>
+            </tr>
+
+        }
+    </table>
+</div>

@@ -1,0 +1,13 @@
+﻿@model MeteMarketting.MVCWebPageArayuz.Models.CategoryListViewModel
+
+
+
+@foreach (var Category in Model.Categories)
+{
+    
+    <a href="/Urun/index?category=@Category.KategoriId" class="list-group-item list-group-item-action list-group-item-info">@Category.KategoriAd</a>
+}
+
+
+
+

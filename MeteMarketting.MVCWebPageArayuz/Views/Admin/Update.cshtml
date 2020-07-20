@@ -1,0 +1,34 @@
+﻿@model MeteMarketting.MVCWebPageArayuz.Models.ProductUpdateViewModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/_AdminLayout.cshtml";
+}
+
+<h2>Güncelle</h2>
+<form asp-controller="Admin" asp-action="Update" method="post">
+    <div class="form-group">
+        <label asp-for="Product.UrunAd"></label>
+        <input asp-for="Product.UrunAd" class="form-control" />
+        <span asp-validation-for="Product.UrunAd"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Product.KategoriId"></label>
+        <input asp-for="Product.KategoriId" class="form-control" />
+        <span asp-validation-for="Product.KategoriId"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Product.BirimFiyat"></label>
+        <input asp-for="Product.BirimFiyat" class="form-control" />
+        <span asp-validation-for="Product.BirimFiyat"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Product.StokBirimi"></label>
+        <input asp-for="Product.StokBirimi" class="form-control" />
+        <span asp-validation-for="Product.StokBirimi"></span>
+    </div>
+    <input type="hidden" asp-for="Product.UrunId"/>
+    <input type="submit" value="Add" class="btn btn-xs btn-success" />
+
+</form>
+

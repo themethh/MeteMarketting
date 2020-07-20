@@ -1,0 +1,16 @@
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Workstation\bin\Debug\netcoreapp2.1\MeteMarketting.Workstation.deps.json
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Workstation\bin\Debug\netcoreapp2.1\MeteMarketting.Workstation.dll
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Workstation\bin\Debug\netcoreapp2.1\MeteMarketting.Workstation.pdb
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Workstation\bin\Debug\netcoreapp2.1\MeteMarketting.Core.dll
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Workstation\bin\Debug\netcoreapp2.1\MeteMarketting.Data.dll
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Workstation\bin\Debug\netcoreapp2.1\MeteMarketting.Entity.dll
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Workstation\bin\Debug\netcoreapp2.1\MeteMarketting.Data.pdb
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Workstation\bin\Debug\netcoreapp2.1\MeteMarketting.Entity.pdb
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Workstation\bin\Debug\netcoreapp2.1\MeteMarketting.Core.pdb
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Workstation\obj\Debug\netcoreapp2.1\MeteMarketting.Workstation.csprojAssemblyReference.cache
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Workstation\obj\Debug\netcoreapp2.1\MeteMarketting.Workstation.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Workstation\obj\Debug\netcoreapp2.1\MeteMarketting.Workstation.AssemblyInfoInputs.cache
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Workstation\obj\Debug\netcoreapp2.1\MeteMarketting.Workstation.AssemblyInfo.cs
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Workstation\obj\Debug\netcoreapp2.1\MeteMarketting.Workstation.csproj.CopyComplete
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Workstation\obj\Debug\netcoreapp2.1\MeteMarketting.Workstation.dll
+C:\Users\Asus\source\repos\MeteMarketting\MeteMarketting.Workstation\obj\Debug\netcoreapp2.1\MeteMarketting.Workstation.pdb
